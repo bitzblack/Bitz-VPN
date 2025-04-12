@@ -1,4 +1,4 @@
-name = "bitz-vpn"
+name = "free"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-05-23"
 minify = true
@@ -6,7 +6,7 @@ workers_dev = true
 
 [[kv_namespaces]]
 binding = "SIREN"
-id = "06b589583c0c49e7a986f0aeed880487"
+id = "916d2e08af71418e82cf068594447cae"
 [build]
 command = "cargo install -q worker-build && worker-build --release"
 
